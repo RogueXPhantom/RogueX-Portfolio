@@ -7,7 +7,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/RogueX-Portfolio">
       <ThemeProvider>
         <App />
       </ThemeProvider>

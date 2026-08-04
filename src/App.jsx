@@ -26,7 +26,6 @@ export default function App() {
   const openRogueOS = useCallback(() => setRogueOSOpen(true), []);
   const closeRogueOS = useCallback(() => setRogueOSOpen(false), []);
 
-  // Typing "rogueos" anywhere on the page quietly unlocks the hidden OS.
   useSecretTrigger("rogueos", openRogueOS);
 
   return (

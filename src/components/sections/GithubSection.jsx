@@ -16,7 +16,7 @@ const PINNED = projects.slice(0, 4).map((p, i) => ({
 function ContributionGraph() {
   return (
     <img
-      src="https://ghchart.rshah.org/000000/RogueXPhantom"
+      src="https://ghchart.rshah.org/216e39/RogueXPhantom"
       alt="RogueXPhantom GitHub contribution graph"
       className="
         w-full
@@ -55,11 +55,13 @@ export default function GithubSection() {
 
         </div>
 
-
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-10% 0px" }}
+          viewport={{
+            once: true,
+            margin: "-10% 0px",
+          }}
           transition={{ duration: 0.6 }}
           className="
             mt-16
@@ -84,15 +86,11 @@ export default function GithubSection() {
 
           </div>
 
-
           <div className="mt-6 min-w-[700px]">
             <ContributionGraph />
           </div>
 
-
         </motion.div>
-
-
 
         <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2">
 
@@ -104,9 +102,20 @@ export default function GithubSection() {
               target="_blank"
               rel="noreferrer"
 
-              initial={{ opacity: 0, y: 18 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-10% 0px" }}
+              initial={{
+                opacity: 0,
+                y: 18,
+              }}
+
+              whileInView={{
+                opacity: 1,
+                y: 0,
+              }}
+
+              viewport={{
+                once: true,
+                margin: "-10% 0px",
+              }}
 
               transition={{
                 duration: 0.5,
@@ -132,7 +141,6 @@ export default function GithubSection() {
                     {repo.name}
                   </span>
 
-
                   <ArrowUpRight
                     className="
                       h-4 w-4
@@ -147,47 +155,36 @@ export default function GithubSection() {
 
                 </div>
 
-
                 <p className="mt-3 text-sm leading-relaxed text-ink-muted">
                   {repo.desc}
                 </p>
 
-
               </div>
 
-
-
               <div className="mt-6 flex items-center gap-5 font-mono text-xs text-ink-faint">
-
 
                 <span className="flex items-center gap-1.5">
                   <span className="h-2.5 w-2.5 rounded-full bg-mint/60" />
                   {repo.language}
                 </span>
 
-
                 <span className="flex items-center gap-1.5">
                   <Star className="h-3.5 w-3.5" />
                   {repo.stars}
                 </span>
-
 
                 <span className="flex items-center gap-1.5">
                   <GitFork className="h-3.5 w-3.5" />
                   {repo.forks}
                 </span>
 
-
               </div>
-
 
             </motion.a>
 
           ))}
 
-
         </div>
-
 
       </div>
     </section>
