@@ -1,0 +1,106 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1820 >>
+stream
+BT
+/F1 24 Tf
+1 0 0 1 56 740 Tm
+(PULKIT GAUTAM) Tj
+/F2 12 Tf
+1 0 0 1 56 714 Tm
+(RogueX -- Cybersecurity Student & Builder) Tj
+/F2 9.5 Tf
+1 0 0 1 56 696 Tm
+(hello@roguex.dev  |  github.com/roguex  |  linkedin.com/in/pulkit-gautam) Tj
+/F1 12 Tf
+1 0 0 1 56 662 Tm
+(PROFILE) Tj
+/F2 10 Tf
+1 0 0 1 56 646 Tm
+(Cybersecurity student focused on offensive security, recon automation, and web) Tj
+/F2 10 Tf
+1 0 0 1 56 633 Tm
+(exploitation. Builds and ships small, sharp security tooling in public.) Tj
+/F1 12 Tf
+1 0 0 1 56 605 Tm
+(EXPERIENCE) Tj
+/F1 11 Tf
+1 0 0 1 56 589 Tm
+(Web & Recon Lead -- Campus Cybersecurity Club) Tj
+/F2 9.5 Tf
+1 0 0 1 56 576 Tm
+(2024 - Present  |  Runs monthly internal CTFs, mentors juniors.) Tj
+/F1 11 Tf
+1 0 0 1 56 559 Tm
+(Security Intern -- Local MSP \(contract\)) Tj
+/F2 9.5 Tf
+1 0 0 1 56 546 Tm
+(Summer 2024  |  Vulnerability assessments and remediation reports.) Tj
+/F1 12 Tf
+1 0 0 1 56 518 Tm
+(SELECTED PROJECTS) Tj
+/F2 10 Tf
+1 0 0 1 56 502 Tm
+(ShadowMap -- Attack-surface recon rendered as an interactive graph.) Tj
+/F2 10 Tf
+1 0 0 1 56 489 Tm
+(Cerberus -- Anomaly-detecting WAF reverse proxy written in Go.) Tj
+/F2 10 Tf
+1 0 0 1 56 476 Tm
+(KeySeer -- Entropy-aware secret scanner for git pre-commit hooks.) Tj
+/F1 12 Tf
+1 0 0 1 56 448 Tm
+(CERTIFICATIONS) Tj
+/F2 10 Tf
+1 0 0 1 56 432 Tm
+(eJPT -- Junior Penetration Tester \(INE Security\), 2025) Tj
+/F2 10 Tf
+1 0 0 1 56 419 Tm
+(CompTIA Security+, 2024) Tj
+/F2 10 Tf
+1 0 0 1 56 406 Tm
+(PortSwigger Web Security Academy -- Practitioner, 2023) Tj
+/F1 12 Tf
+1 0 0 1 56 378 Tm
+(EDUCATION) Tj
+/F1 11 Tf
+1 0 0 1 56 362 Tm
+(B.Tech, Computer Science -- Cybersecurity Track) Tj
+/F2 9.5 Tf
+1 0 0 1 56 349 Tm
+(University Institute of Technology, 2023 - Present) Tj
+/F2 8 Tf
+1 0 0 1 56 319 Tm
+(This is placeholder content generated for a portfolio demo.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000002123 00000 n 
+0000002198 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2268
+%%EOF
