@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================
+   THEME VARIABLES
+   ========================================================= */
+
+:root {
+  /* ================= DARK MODE ================= */
+
+  --page: 0 0 0;
+
+  --surface: 5 5 5;
+  --surface-raised: 11 11 11;
+  --surface-hover: 16 16 16;
+
+  --border: 30 30 30;
+  --border-hairline: 42 42 42;
+
+  /* Mint */
+  --accent: 127 232 197;
+  --accent-dim: 95 191 161;
+  --accent-bright: 159 243 215;
+
+  /* Text */
+  --ink: 255 255 255;
+  --ink-muted: 163 163 163;
+  --ink-faint: 107 107 107;
+  --ink-ghost: 58 58 58;
+
+  /* Secondary */
+  --secondary: 70 70 70;
+}
+
+
+/* =========================================================
+   LIGHT MODE
+   ========================================================= */
+
+html.light {
+  /* ================= BACKGROUND ================= */
+
+  /* Clean ivory */
+  --page: 242 245 243;
+
+  /* ================= SURFACES ================= */
+
+  /* Slightly darker than the page */
+  --surface: 242 241 237;
+
+  /* Clean almost-white cards */
+  --surface-raised: 255 255 252;
+
+  /* Hover state */
+  --surface-hover: 235 234 229;
+
+  /* ================= BORDERS ================= */
+
+  --border: 205 204 198;
+  --border-hairline: 185 184 177;
+
+  /* ================= PRIMARY ACCENT ================= */
+
+  /* Ochre */
+  --accent: 167 126 42;
+  --accent-dim: 137 103 34;
+  --accent-bright: 190 148 60;
+
+  /* ================= TEXT ================= */
+
+  /* Main text */
+  --ink: 24 24 23;
+
+  /* Secondary text */
+  --ink-muted: 70 70 67;
+
+  /* Faint text */
+  --ink-faint: 105 104 99;
+
+  /* Very faint text */
+  --ink-ghost: 155 154 147;
+
+  /* ================= SECONDARY COLOR ================= */
+
+  /* Electric violet */
+  --secondary: 109 90 230;
+}
+
+
+/* =========================================================
+   BASE
+   ========================================================= */
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans;
+
+    background-color: rgb(var(--page));
+    color: rgb(var(--ink));
+
+    font-feature-settings:
+      "ss01" on,
+      "cv01" on;
+
+    transition:
+      background-color 400ms ease,
+      color 400ms ease;
+  }
+
+  /* Text selection */
+
+  ::selection {
+    background: rgb(var(--accent));
+    color: rgb(var(--page));
+  }
+
+  /* Keyboard focus */
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--accent));
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* =======================================================
+     SCROLLBAR
+     ======================================================= */
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(var(--page));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--border));
+
+    border-radius: 999px;
+
+    border: 2px solid rgb(var(--page));
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--border-hairline));
+  }
+
+  /* =======================================================
+     REDUCED MOTION
+     ======================================================= */
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+
+/* =========================================================
+   COMPONENTS
+   ========================================================= */
+
+@layer components {
+
+  /* Small uppercase section labels */
+
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-mint;
+  }
+
+
+  /* Main content container */
+
+  .section-shell {
+    @apply relative mx-auto w-full max-w-[1400px] px-6 sm:px-10 lg:px-16;
+  }
+
+
+  /* Section divider */
+
+  .hairline {
+    @apply border-t border-border;
+  }
+
+
+  /* Editorial cards */
+
+  .card-editorial {
+    @apply rounded border border-border bg-surface-raised transition-colors duration-300 ease-editorial hover:border-mint/40 hover:bg-surface-hover;
+  }
+
+
+  /* Balanced text */
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+/* =========================================================
+   UTILITIES
+   ========================================================= */
+
+@layer utilities {
+
+  /* =======================================================
+     GRAIN OVERLAY
+     ======================================================= */
+
+  .grain-overlay {
+    pointer-events: none;
+
+    position: fixed;
+
+    inset: -50%;
+
+    width: 200%;
+    height: 200%;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+
+    opacity: 0.05;
+
+    z-index: 60;
+
+    mix-blend-mode: overlay;
+  }
+}
