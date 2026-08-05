@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 import { Lock, FlaskConical } from "lucide-react";
 
 const EXPERIMENTS = [
-  {
-    name: "Project Chimera",
-    status: "Paused",
-    note: "An LLM-assisted fuzzer that writes its own grammar from observed traffic. Promising, occasionally hallucinates entire protocols.",
-  },
-  {
-    name: "Operation Quietkey",
-    status: "Active",
-    note: "Side-channel timing experiments on a homemade keypad — how much can you infer from keystroke latency alone?",
-  },
-  {
-    name: "Glass Onion",
-    status: "Archived",
-    note: "A layered CTF designed for the campus club, each flag revealing the next challenge's attack surface.",
-  },
+  // {
+  //   name: "Project Chimera",
+  //   status: "Paused",
+  //   note: "An LLM-assisted fuzzer that writes its own grammar from observed traffic. Promising, occasionally hallucinates entire protocols.",
+  // },
+  // {
+  //   name: "Operation Quietkey",
+  //   status: "Active",
+  //   note: "Side-channel timing experiments on a homemade keypad — how much can you infer from keystroke latency alone?",
+  // },
+  // {
+  //   name: "Glass Onion",
+  //   status: "Archived",
+  //   note: "A layered CTF designed for the campus club, each flag revealing the next challenge's attack surface.",
+  // },
 ];
 
 export default function SecretLab({ unlocked }) {
