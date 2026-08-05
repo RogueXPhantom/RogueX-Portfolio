@@ -3,26 +3,23 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 
 const BEATS = [
-  {
-    title: "2020 — The default password",
-    text: "A university lab machine, a default admin password, and a weekend spent quietly checking how many other machines on the network shared it. Nineteen did.",
-  },
-  {
-    title: "2022 — First CTF, zero flags",
-    text: "Entered a beginner CTF alone, understood maybe a third of the challenge descriptions, and left with zero flags and a long list of things to learn.",
-  },
-  {
-    title: "2023 — First flag, then twelve more",
-    text: "Came back the following year with a small team. Solved a web challenge involving a subtly broken JWT check — the first of many.",
-  },
-  {
-    title: "2024 — Building instead of only breaking",
-    text: "Started shipping the tools that scratched a specific itch during engagements — recon scripts that became ShadowMap's first prototype.",
-  },
-  {
-    title: "Now — Looking for the next room to break into",
-    text: "Studying full-time, competing when the calendar allows, and looking for a team to learn from next.",
-  },
+  
+ {
+  title: "2026 — Curiosity turned into cybersecurity",
+  text: "I was always fascinated by cybercrime and wanted to understand how attackers do what they do. At the same time, I wanted to know how programs work and how to build them, so I started learning one thing at a time.",
+},
+{
+  title: "2026 — Learning how things work",
+  text: "I started exploring cybersecurity through CTFs and network security, then expanded into web security, API security, OSINT, and reverse engineering. The goal wasn't just to use tools, but to understand what was happening underneath them.",
+},
+{
+  title: "2026 — Building while learning",
+  text: "I realized that learning how to build something makes it easier to understand how to break it. So I started experimenting with programming and building projects while practicing security through CTF platforms and hands-on labs.",
+},
+{
+  title: "Now — Learning, breaking, building",
+  text: "Currently working through picoCTF, pwn.college, web security practice, and Cisco's Junior Cybersecurity Analyst course. I'm working toward becoming a cybersecurity professional who can help protect people's privacy, data, and money from cyber attacks.",
+},
 ];
 
 export default function StoryMode() {
