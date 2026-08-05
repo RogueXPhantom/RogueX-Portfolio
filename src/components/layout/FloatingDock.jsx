@@ -1,15 +1,10 @@
 import React, { useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { Sun, Moon, BookOpen } from "lucide-react";
+import { Sun, Moon } from "lucide-react";
 import { navItems } from "@/data/nav";
 import { useActiveSection } from "@/hooks/useActiveSection";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import { useTheme } from "../../context/ThemeContext.jsx";
 
@@ -21,18 +16,11 @@ function DockIcon({ item, mouseX, isActive, onNavigate }) {
 
   const distance = useTransform(mouseX, (val) => {
     if (val === null || !ref.current) return Infinity;
-
     const bounds = ref.current.getBoundingClientRect();
-
     return val - (bounds.left + bounds.width / 2);
   });
 
-  const sizeRaw = useTransform(
-    distance,
-    [-140, 0, 140],
-    [40, 60, 40]
-  );
-
+  const sizeRaw = useTransform(distance, [-140, 0, 140], [40, 60, 40]);
   const size = useSpring(reduced ? 40 : sizeRaw, {
     mass: 0.1,
     stiffness: 220,
@@ -56,37 +44,26 @@ function DockIcon({ item, mouseX, isActive, onNavigate }) {
           aria-label={item.label}
           aria-current={isActive ? "true" : undefined}
         >
-          <item.icon
-            className="h-[42%] w-[42%]"
-            strokeWidth={1.75}
-          />
+          <item.icon className="h-[42%] w-[42%]" strokeWidth={1.75} />
 
           {isActive && (
             <motion.span
               layoutId="dock-active-dot"
               className="absolute -bottom-2 h-1 w-1 rounded-full bg-mint"
-              transition={{
-                type: "spring",
-                stiffness: 500,
-                damping: 30,
-              }}
+              transition={{ type: "spring", stiffness: 500, damping: 30 }}
             />
           )}
         </motion.a>
       </TooltipTrigger>
 
-      <TooltipContent side="top">
-        {item.label}
-      </TooltipContent>
+      <TooltipContent side="top">{item.label}</TooltipContent>
     </Tooltip>
   );
 }
 
-export default function FloatingDock({ onOpenStoryMode }) {
+export default function FloatingDock() {
   const mouseX = useMotionValue(null);
-
   const active = useActiveSection(SECTION_IDS);
-
   const { theme, toggleTheme } = useTheme();
 
   const onNavigate = (e, href) => {
@@ -125,35 +102,8 @@ export default function FloatingDock({ onOpenStoryMode }) {
             />
           ))}
 
-          {/* Story Mode */}
-          <Tooltip delayDuration={150}>
-            <TooltipTrigger asChild>
-              <motion.button
-                type="button"
-                whileTap={{ scale: 0.92 }}
-                onClick={onOpenStoryMode}
-                className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-surface text-ink-muted transition-colors duration-300 hover:border-mint/40 hover:text-mint"
-                aria-label="Open Story Mode"
-              >
-                <BookOpen
-                  className="h-[42%] w-[42%]"
-                  strokeWidth={1.75}
-                  aria-hidden="true"
-                />
-              </motion.button>
-            </TooltipTrigger>
+          <div className="mx-1 h-6 w-px bg-border" aria-hidden="true" />
 
-            <TooltipContent side="top">
-              Story Mode
-            </TooltipContent>
-          </Tooltip>
-
-          <div
-            className="mx-1 h-6 w-px bg-border"
-            aria-hidden="true"
-          />
-
-          {/* Theme */}
           <Tooltip delayDuration={150}>
             <TooltipTrigger asChild>
               <motion.button
@@ -189,4 +139,4 @@ export default function FloatingDock({ onOpenStoryMode }) {
       </nav>
     </TooltipProvider>
   );
-}
+} 
