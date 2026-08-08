@@ -1,106 +1,74 @@
 %PDF-1.4
+%���� ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Length 1820 >>
-stream
-BT
-/F1 24 Tf
-1 0 0 1 56 740 Tm
-(PULKIT GAUTAM) Tj
-/F2 12 Tf
-1 0 0 1 56 714 Tm
-(RogueX -- Cybersecurity Student & Builder) Tj
-/F2 9.5 Tf
-1 0 0 1 56 696 Tm
-(hello@roguex.dev  |  github.com/roguex  |  linkedin.com/in/pulkit-gautam) Tj
-/F1 12 Tf
-1 0 0 1 56 662 Tm
-(PROFILE) Tj
-/F2 10 Tf
-1 0 0 1 56 646 Tm
-(Cybersecurity student focused on offensive security, recon automation, and web) Tj
-/F2 10 Tf
-1 0 0 1 56 633 Tm
-(exploitation. Builds and ships small, sharp security tooling in public.) Tj
-/F1 12 Tf
-1 0 0 1 56 605 Tm
-(EXPERIENCE) Tj
-/F1 11 Tf
-1 0 0 1 56 589 Tm
-(Web & Recon Lead -- Campus Cybersecurity Club) Tj
-/F2 9.5 Tf
-1 0 0 1 56 576 Tm
-(2024 - Present  |  Runs monthly internal CTFs, mentors juniors.) Tj
-/F1 11 Tf
-1 0 0 1 56 559 Tm
-(Security Intern -- Local MSP \(contract\)) Tj
-/F2 9.5 Tf
-1 0 0 1 56 546 Tm
-(Summer 2024  |  Vulnerability assessments and remediation reports.) Tj
-/F1 12 Tf
-1 0 0 1 56 518 Tm
-(SELECTED PROJECTS) Tj
-/F2 10 Tf
-1 0 0 1 56 502 Tm
-(ShadowMap -- Attack-surface recon rendered as an interactive graph.) Tj
-/F2 10 Tf
-1 0 0 1 56 489 Tm
-(Cerberus -- Anomaly-detecting WAF reverse proxy written in Go.) Tj
-/F2 10 Tf
-1 0 0 1 56 476 Tm
-(KeySeer -- Entropy-aware secret scanner for git pre-commit hooks.) Tj
-/F1 12 Tf
-1 0 0 1 56 448 Tm
-(CERTIFICATIONS) Tj
-/F2 10 Tf
-1 0 0 1 56 432 Tm
-(eJPT -- Junior Penetration Tester \(INE Security\), 2025) Tj
-/F2 10 Tf
-1 0 0 1 56 419 Tm
-(CompTIA Security+, 2024) Tj
-/F2 10 Tf
-1 0 0 1 56 406 Tm
-(PortSwigger Web Security Academy -- Practitioner, 2023) Tj
-/F1 12 Tf
-1 0 0 1 56 378 Tm
-(EDUCATION) Tj
-/F1 11 Tf
-1 0 0 1 56 362 Tm
-(B.Tech, Computer Science -- Cybersecurity Track) Tj
-/F2 9.5 Tf
-1 0 0 1 56 349 Tm
-(University Institute of Technology, 2023 - Present) Tj
-/F2 8 Tf
-1 0 0 1 56 319 Tm
-(This is placeholder content generated for a portfolio demo.) Tj
-ET
-endstream
+<<
+/Contents 8 0 R /MediaBox [ 0 0 612 792 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 5 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
 endobj
 6 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/Author (anonymous) /CreationDate (D:20260808061840+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260808061840+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (untitled) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1999
+>>
+stream
+Gau0D=``:f&:XAWkbgRA7b0/u:Q$s98Vla8;;"q1AInrA/Bt,h&VPY+*ZZ@WnU`!PbL-Z1HM[R9cp5Q7Xgn3^^pODK[i/p@GRMkl`<:)^"7JQR2:km@E-P0F(Tc8*itf\c+f2F<E)D_E6+8*W6`l4'(8krbmV]V9/ns8<>/c>PFA1I%_d?3gdANZCGJ1!-qtrBthnf14ku?.i[9un9WLId,2-crWiW?)@Nc(9Q&b;AjO<6^D9aC\!>QOK3?4Y&>6%:p:H=(+?9lC4H*rH&je)BM&0KqU'"'6p/UabS07CH3PZb%0Bm[>fT[p>mk^V?2a1o#MkL118B1rk/#F9[rB?QQ.JoCP%RbOW44h.Gb`9NQ6r%+m=GPc!22*[ei1mj6._V6G]O.f,S,Yao[JE'U1Ss-rRj:4F[5\cO8j"B^C&aCgCVj/_`n&eHC7]_eGW'kSK+7>JtO%2N<U*<SsBO9HFO$]N6C?FTS>k;X"Y5:mjkr-1:C%@W5hVM-;Sn34Ru:`NS1DWGs]@^'[V=@FpsH%fOLKlshaFgGIiph(!<r&rZQ6p@MB^cLBbL!MT.=WU%RBlF[B27j"@3-miK?cc[,BFYU'%iCB&EcVPFE1%LP_K,_Y?W[+i]%//=2F$?_DjLWUX:2@iP*F(0M_dB;;G*N(7+Zs*P6i.?$@L\18Wo;O5CbEiFI[X-iTqX72C#,5nXRj\'TPR0CEYguNpkI6pag)*jC`K0P#t__5#[n8(uq#7PX[[XF&2<obHWNsh*1P1'BkD\]udhaB\>/L991XU>G'DBHE34c4;TCtX1"c3ig0XmK_-^>[B0Yp-K6%%SQ90bX.KR%RVjQX=)XZ5hfR\*Hd@&MK\k/h*=(OQjp]h^_CCT`:!"rF64m+C[gbOc?"ihnUd&"eL@nl1h,<)UN],FffnuOdc#ZLbHMsbBiR:)chE4L$Eo0B@Mj,b.ToT4HU.lE_b:d9rZ[ejtm:o[O2j`>uIU"EPbJG!B(WSDFMQ+/2o1BIQWQuG,@?qMfe&sn8h7u.sI#dk"@Qd`t&5s21Gldp3W`OU-a5'WW;V/:T?OM-YmDaFJH:N+T6B#9K,_d0Ga=?98A]&.8]tg/`o&[/o6pQdi8[1A"^ShOtX@h)D<27Q]WQE26Z;/F2e>HENAZ/Zp\AXoPi+YkQLk*)_R'!2j99"[B,r'RG]PK7/RSM,ZA2"qo]tk.c^%W+?'.is;b5Ua$CYHcde!B;hVEO99:960DZhD=/5j!ImR3X@&ai4Dk]fMf6"S&*G=e76:@@\a@i+!tu`<;_6aj;lM:d^'/Ku?"\MBl$t^C*,'C2>LqVYW-g@Q2V:(0]7'Tc&nGJ3.h0'ld(lJ*Gd`YU.G"\Gt3sK)9hJ@TV*q@CBoHCnkcFCji%I$)1Y9;B&i4+#&iJACD];Jh7X:1FX'#q1N2)5RbiQ,sur4-K-QkW!1n;eIXA3JGRSpM^:!]>$H;6*m;9D2!Bo@L(ALk7\<OG8f<'=\t(n6d%+7RpUEXe6=7&b\h>j]Z^pR\A5;/Z$(;rWL:IN^7fpB@r<-rKW!%[Xe[/h"`k+gV-(T]QQUOIhB\hMc[((QMU56*$I/sGb-(jV:mj6kOFL#M9c]S/P/S.T_bk+K6lQTl2X#aRD/g5#BJC(p3<G&unl'CtuG\YQS-#.=OXlQC6e9))E*h_^l%IN#FJ,_4hpI6k,HMpY&ie_QB><F@dHa=]eZ@un_$1bZA<t%90YRY=-%.#3AObo]bM5]T]W24Nk&:B33p\Cn<*ec0F;9f,MP#Sd(\m['1AKuPU*S-KlY^SGmgi"*71kFMc,eSKjNR$+eY3kjfXS;AdVFjpQ<GTO`7^6J"@ZH2RIR1:KX%Wpr3D@>4#Q]ntRK$<._FBCa#qLH%<)sBO%p-\&j*+6$.4`ti!k"$NJ;@\9pJs:2[iBlFPU@%pQkWXE$0=!,Q\DG:=/eYF8KO9#T+7]WU%ttXE\S,LQ0rqhE"i2O,5oGYZ/AL#l_3k71Lmri#q2,OKE~>endstream
 endobj
 xref
-0 7
+0 9
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000251 00000 n 
-0000002123 00000 n 
-0000002198 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000843 00000 n 
+0000000902 00000 n 
 trailer
-<< /Size 7 /Root 1 0 R >>
+<<
+/ID 
+[<a793dea55acdef2e3f1a03fbe2d1e333><a793dea55acdef2e3f1a03fbe2d1e333>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
 startxref
-2268
+2992
 %%EOF
