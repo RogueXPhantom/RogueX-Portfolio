@@ -1,4 +1,21 @@
 export const projects = [
+  {
+    id: "center-target-tracker",
+    title: "Center Target Tracker",
+    tagline: "Real-Time Vision. Precise Target Tracking.",
+    description:
+      "Real-time computer vision tracker using YOLOv5 that detects people and selects the target closest to the center of the frame, with live coordinates, distance, offsets, FPS, and visualization. Built with Python, PyTorch, OpenCV, and NumPy.",
+    tags: ["Python YOLOv5 PyTorch OpenCV NumPy Computer Vision Object Detection Real-Time Tracking"],
+    year: "2026",
+    size: "lg",
+    role: "Solo builder",
+    github: "https://github.com/RogueXPhantom/center-target-tracker",
+    metrics: [
+      { label: "Detection Model", value: "YOLOv5" },
+      { label: "Processing", value: "Real-Time" },
+    ],
+  },
+
   // {
   //   id: "shadowmap",
   //   title: "ShadowMap",
